@@ -1,6 +1,6 @@
 
-## Nombres completos:
-> Edson Bryan Béjar Román.
+# Nombres completos:
+## - Edson Bryan Béjar Román.
 
 # 🧠 Deep Transformer para Series Temporales – Influenza Prevalence Case
 
