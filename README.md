@@ -9,7 +9,7 @@ Este repositorio contiene la implementación y prueba del modelo **Transformer p
 
 ## 🎯 Objetivo
 
-Replicar el modelo propuesto en el artículo mencionado, evaluando su comportamiento inicial sobre datos de prevalencia de influenza. Esta implementación forma parte del trabajo preliminar para un **plan de tesis** en ciencia de la computación.
+Replicar el modelo propuesto en el artículo mencionado, evaluando su comportamiento inicial sobre datos de prevalencia de influenza. Esta implementación forma parte del trabajo preliminar para mi **plan de tesis** en ciencia de la computación.
 
 ---
 
@@ -32,20 +32,32 @@ Replicar el modelo propuesto en el artículo mencionado, evaluando su comportami
 - Matplotlib
 - Pandas
 
-> ⚠️ Requisitos completos en `requirements.txt`.
 
----
+-----------------
 
 ## 📁 Archivos subidos: 
 - train.py
 
-- inference_example.py
+- evaluate.py
 
 - dataset.py
 
-- output_metrics.txt
+- data_utils.py
 
-- output_plot.png
+- inference.py
+
+- inference_example.py
+
+- positional_encoder.py
+
+- sandbox.py
+  
+- utils.py
+
+> ⚠️ No se subió el archivo generado del entrenamiento`transformer_timeseries_model.pth`.
+
+
+> Captura de la estructura del repositorio: ![Captura de la estructura del repositorio](Img/estructura_repo.jpeg)
 
 ## 📉 Resultados obtenidos:
 - MSE: 335281.37
@@ -57,13 +69,12 @@ Replicar el modelo propuesto en el artículo mencionado, evaluando su comportami
 Las predicciones fueron planas y sobreestimadas debido al bajo número de épocas y las restricciones del entorno. Sin embargo, el modelo se ejecutó correctamente, y se visualizó la salida comparando histórico, real y predicción.
 
 📸 Evidencias:
- (output_plot.png)
 
--![Captura del entrenamiento de 5 épocas](Img/entrenamient_5_epocas.png)
+-Captura del entrenamiento de 5 épocas: ![Captura del entrenamiento de 5 épocas](Img/entrenamient_5_epocas.jpeg)
  
--![Captura del gráfico de predicción](Img/resultados_predicion.png)
+-Captura del gráfico de predicción: ![Captura del gráfico de predicción](Img/resultados_prediccion.png)
 
--![Captura del log de consola](Img/resultado_consola.jpeg)
+-Captura resultado en consola: ![Captura del log de consola](Img/resultado_consola.jpeg)
 
 Comentarios sobre el desempeño observado
 
