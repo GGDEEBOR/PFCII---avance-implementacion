@@ -1,6 +1,10 @@
+
+## Nombres completos:
+> Edson Bryan Béjar Román.
+
 # 🧠 Deep Transformer para Series Temporales – Influenza Prevalence Case
 
-Este repositorio contiene la implementación y prueba del modelo **Transformer para series temporales**, basado en el paper:
+Este repositorio contiene la implementación y prueba del modelo **Transformer para series temporales**, me basé en el paper:
 
 > **"Deep Transformer Models for Time Series Forecasting: The Influenza Prevalence Case"**  
 > DOI: [10.48550/arXiv.2001.08317](https://doi.org/10.48550/arXiv.2001.08317)
@@ -112,5 +116,6 @@ Las predicciones fueron planas y sobreestimadas debido al bajo número de época
 
 > **"Deep Transformer Models for Time Series Forecasting: The Influenza Prevalence Case"**  
 > DOI: [10.48550/arXiv.2001.08317](https://doi.org/10.48550/arXiv.2001.08317)
+
 
 
