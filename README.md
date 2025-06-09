@@ -59,11 +59,11 @@ Las predicciones fueron planas y sobreestimadas debido al bajo número de época
 📸 Evidencias:
  (output_plot.png)
 
--![Captura del entrenamiento de 5 épocas](entrenamient_5_epocas.png)
+-![Captura del entrenamiento de 5 épocas](Img/entrenamient_5_epocas.png)
  
--![Captura del gráfico de predicción](resultados_predicion.png)
+-![Captura del gráfico de predicción](Img/resultados_predicion.png)
 
--![Captura del log de consola](resultado_consola.jpeg)
+-![Captura del log de consola](Img/resultado_consola.jpeg)
 
 Comentarios sobre el desempeño observado
 
