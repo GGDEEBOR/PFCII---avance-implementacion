@@ -43,23 +43,25 @@ Se implementaron los script de `train.py` con el cual se generó el archivo ``tr
 -----------------
 
 ## 📁 Archivos subidos: 
-- train.py
+- train.py.
 
-- evaluate.py
+- evaluate.py.
 
-- dataset.py
+- dataset.py.
 
-- data_utils.py
+- data_utils.py.
 
-- inference.py
+- inference.py.
 
-- inference_example.py
+- inference_example.py.
 
-- positional_encoder.py
+- positional_encoder.py.
 
-- sandbox.py
+- sandbox.py.
   
-- utils.py
+- utils.py.
+
+- model / transformer_timeseries.py
 
 > ⚠️ No se subió el archivo generado del entrenamiento`transformer_timeseries_model.pth`.
 
@@ -69,24 +71,46 @@ Se implementaron los script de `train.py` con el cual se generó el archivo ``tr
 > ![Captura de la estructura del proyecto](Img/estructura_repo.jpeg)
 
 ## 📉 Resultados obtenidos:
-- MSE: 335281.37
+- MSE: 335281.37.
 
-- MAE: 578.89
+- MAE: 578.89.
 
-- RMSE: 579.03
+- RMSE: 579.03.
 
 Las predicciones fueron planas y sobreestimadas debido al bajo número de épocas y las restricciones del entorno. Sin embargo, el modelo se ejecutó correctamente, y se visualizó la salida comparando histórico, real y predicción.
 
 📸 Evidencias:
 
--Captura del entrenamiento de 5 épocas: ![Captura del entrenamiento de 5 épocas](Img/entrenamient_5_epocas.jpeg)
+>Captura del entrenamiento de 5 épocas:
+
+>![Captura del entrenamiento de 5 épocas](Img/entrenamient_5_epocas.jpeg)
+
  
--Captura del gráfico de predicción: ![Captura del gráfico de predicción](Img/resultados_prediccion.png)
+>Captura del gráfico de predicción:
 
--Captura resultado en consola: ![Captura del log de consola](Img/resultado_consola.jpeg)
-
-Comentarios sobre el desempeño observado
+> ![Captura del gráfico de predicción](Img/resultados_prediccion.png)
 
 
+>Captura resultado en consola:
+
+>![Captura del log de consola](Img/resultado_consola.jpeg)
+
+
+
+## 📈 Consideraciones futuras:
+
+- Entrenamiento con más épocas (cuando disponga de mejor hardware).
+
+- Ajustes de hiperparámetros.
+
+- Evaluación en otros datasets.
+
+- Desarrollo del plan de tesis sobre esta base.
+
+
+## 📚 Referencia 
+
+> **"Deep Transformer Models for Time Series Forecasting: The Influenza Prevalence Case"**  
+> DOI: [10.48550/arXiv.2001.08317](https://doi.org/10.48550/arXiv.2001.08317)
 
 
