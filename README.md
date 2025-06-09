@@ -12,6 +12,13 @@ Este repositorio contiene la implementación y prueba del modelo **Transformer p
 Replicar el modelo propuesto en el artículo mencionado, evaluando su comportamiento inicial sobre datos de prevalencia de influenza. Esta implementación forma parte del trabajo preliminar para mi **plan de tesis** en ciencia de la computación.
 
 ---
+## Consideraciones
+
+Para la correcta ejecución de este repositorio, se implementó varios scripts que no soy originales del repositorio original.
+Se implementaron los script de `train.py` con el cual se generó el archivo ``transformer_timeseries_model.pth``; luego, se implementó `evaluate.py`, `data_utils.py` y hubo algunas modificaciones en los archivos `positional_encoder.py`, `dataset.py`.
+
+
+-------------
 
 🖥️ Entorno de ejecución:
 - CPU (sin GPU)
@@ -57,7 +64,9 @@ Replicar el modelo propuesto en el artículo mencionado, evaluando su comportami
 > ⚠️ No se subió el archivo generado del entrenamiento`transformer_timeseries_model.pth`.
 
 
-> Captura de la estructura del repositorio: ![Captura de la estructura del repositorio](Img/estructura_repo.jpeg)
+> Captura de la estructura del proyecto:
+
+> ![Captura de la estructura del proyecto](Img/estructura_repo.jpeg)
 
 ## 📉 Resultados obtenidos:
 - MSE: 335281.37
